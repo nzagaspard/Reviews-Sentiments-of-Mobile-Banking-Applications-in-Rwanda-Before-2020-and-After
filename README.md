@@ -8,7 +8,7 @@ The last two years have caused a huge increase in cashless transactions. Many ba
 
 Even though the first review date back in late 2012 most of the applications got their first reviews in 2016 or later. I decided to consider only reviews from January 1, 2017 to November 30, 2021. This analysis only shows the ratings given followed by a review note.
 
-![ratings_over_time]('monthly_average_rate.png')
+![]('monthly_average_rate.png')
 
 ## SENTIMENT ANALYSIS
 
