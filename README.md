@@ -14,15 +14,19 @@ Even though the first review date back in late 2012 most of the applications got
 
 There are several methods to obtain whether a comment/review is positive, neutral or negative. In python two of some popular libraries that help help in sentiment analysis are [**Textblob**](https://textblob.readthedocs.io/en/dev/) and [**Vader**](https://github.com/cjhutto/vaderSentiment). The former uses the polarity and the subjectivity of the text while the later uses the emotion intensities associated with each lexical feature. Textblob is generalized while Vader is attuned to social media sentiments and can work with [**NLTK**](https://github.com/cjhutto/vaderSentiment) to provide sentiments on longer & tricky sentences that confuse other sentiment analysis tools.
 
-### Overall
+### Samples
 
 ![positive_sample](positive_sample.PNG)
 
 ![negative_sample](negative_sample.PNG)
 
+### Overall Distribution
+
 ![overall_sentiments](overall_sentiments.png)
 
 > Overall, slightly more than a half of reviews are positive while 13% are classfied as Neutral.
+
+### Sentiments by rating
 
 ![Sentiments_by_rating](sentiments_by_rate.png)
 
