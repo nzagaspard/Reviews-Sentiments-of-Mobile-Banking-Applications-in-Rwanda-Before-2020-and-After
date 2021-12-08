@@ -8,7 +8,7 @@ The last two years have caused a huge increase in cashless transactions. Many ba
 
 Even though the first review date back in late 2012 most of the applications got their first reviews in 2016 or later. I decided to consider only reviews from January 1, 2017 to November 30, 2021. This analysis only shows the ratings given followed by a review note.
 
-![]('monthly_average_rate.png')
+![monthly_average_rate](monthly_average_rate.png)
 
 ## SENTIMENT ANALYSIS
 
@@ -16,21 +16,29 @@ There are several methods to obtain whether a comment/review is positive, neutra
 
 ### Overall
 
-![positive_sample]('positive_sample.png')
+![positive_sample](positive_sample.png)
 
-![negative_sample]('negative_sample.png')
+![negative_sample](negative_sample.png)
 
-![overall_sentiments]('overall_sentiments.png')
+![overall_sentiments](overall_sentiments.png)
 
-![Sentiments_by_rating]('sentiments_by_rate.png')
+> Overall, slightly more than a half of reviews are positive while 13% are classfied as Neutral.
+
+![Sentiments_by_rating](sentiments_by_rate.png)
+
+> Ratings of 3 or below are mostly dominated with negative reviews
 
 ### Sentiments Before 2020
 
-![sentiments_before]('sentiments_before.png')
+![sentiments_before](sentiments_before.png)
+
+> Before 2020, 62% of reviews were positive and only 24% were negative.
 
 ### Sentiments After 2020
 
-![sentiments_after]('sentiments_after.png')
+![sentiments_after](sentiments_after.png)
+
+> After 2020, positive reviews goes down to 46% while negative reviews increased to 41%.
 
 ## Conclusion & Future Work
 
@@ -38,15 +46,13 @@ Negative reviews increased from 24% before 2020 to 41% after 2020. Most negative
 
 The next step would be to check the upvotes of different sentiment, looking at reply/feedback rate to see whether the developers acknowledged negative feedbacks or provided help, and trying to classify/cluster the sentiment by topics. For example to see whether negative sentiments are associated with devices/os incompatibility, or some applications' features.
 
-![summary]('summary.png')
+![summary](summary.png)
 
 ## References
-
 
 https://github.com/JoMingyu/google-play-scraper
 
 http://blog.manbolo.com/2012/09/10/useful-itunes-web-services
-
 
 ---
 https://www.nltk.org/howto/sentiment.html
