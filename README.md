@@ -16,9 +16,9 @@ There are several methods to obtain whether a comment/review is positive, neutra
 
 ### Overall
 
-![positive_sample](positive_sample.png)
+![positive_sample](positive_sample.PNG)
 
-![negative_sample](negative_sample.png)
+![negative_sample](negative_sample.PNG)
 
 ![overall_sentiments](overall_sentiments.png)
 
