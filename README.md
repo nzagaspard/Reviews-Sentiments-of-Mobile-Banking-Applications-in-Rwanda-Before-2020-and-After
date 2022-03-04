@@ -12,7 +12,7 @@ Even though the first review date back in late 2012 most of the applications got
 
 ## SENTIMENT ANALYSIS
 
-There are several methods to obtain whether a comment/review is positive, neutral or negative. In python two of some popular libraries that help help in sentiment analysis are [**Textblob**](https://textblob.readthedocs.io/en/dev/) and [**Vader**](https://github.com/cjhutto/vaderSentiment). The former uses the polarity and the subjectivity of the text while the later uses the emotion intensities associated with each lexical feature. Textblob is generalized while Vader is attuned to social media sentiments and can work with [**NLTK**](https://github.com/cjhutto/vaderSentiment) to provide sentiments on longer & tricky sentences that confuse other sentiment analysis tools.
+There are several methods to know whether a comment/review is positive, neutral or negative. In python two of some popular libraries that help help in sentiment analysis are [**Textblob**](https://textblob.readthedocs.io/en/dev/) and [**Vader**](https://github.com/cjhutto/vaderSentiment). The former uses the polarity and the subjectivity of the text while the later uses the emotion intensities associated with each lexical feature. Textblob is generalized while Vader is attuned to social media sentiments and can work with [**NLTK**](https://github.com/cjhutto/vaderSentiment) to provide sentiments on longer & tricky sentences that confuse other sentiment analysis tools.
 
 ### Samples
 
